@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F3B74B992832B6F9002BC86F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B74B982832B6F9002BC86F /* NetworkManager.swift */; };
+		F3B74B9B2832B820002BC86F /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B74B9A2832B820002BC86F /* PostData.swift */; };
+		F3B74B9E2832BD39002BC86F /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B74B9D2832BD39002BC86F /* DetailView.swift */; };
+		F3B74BA02832C409002BC86F /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B74B9F2832C408002BC86F /* WebView.swift */; };
 		F3C3E4F92832B1ED00B3ECCA /* H4XORApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C3E4F82832B1ED00B3ECCA /* H4XORApp.swift */; };
 		F3C3E4FB2832B1ED00B3ECCA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C3E4FA2832B1ED00B3ECCA /* ContentView.swift */; };
 		F3C3E4FD2832B1EF00B3ECCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C3E4FC2832B1EF00B3ECCA /* Assets.xcassets */; };
@@ -14,6 +18,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F3B74B982832B6F9002BC86F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F3B74B9A2832B820002BC86F /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		F3B74B9D2832BD39002BC86F /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F3B74B9F2832C408002BC86F /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		F3C3E4F52832B1ED00B3ECCA /* H4XOR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = H4XOR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3C3E4F82832B1ED00B3ECCA /* H4XORApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = H4XORApp.swift; sourceTree = "<group>"; };
 		F3C3E4FA2832B1ED00B3ECCA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +40,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F3B74B972832B6E7002BC86F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F3B74B982832B6F9002BC86F /* NetworkManager.swift */,
+				F3B74B9A2832B820002BC86F /* PostData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F3B74B9C2832BD28002BC86F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F3C3E4FA2832B1ED00B3ECCA /* ContentView.swift */,
+				F3B74B9D2832BD39002BC86F /* DetailView.swift */,
+				F3B74B9F2832C408002BC86F /* WebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F3C3E4EC2832B1ED00B3ECCA = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +78,9 @@
 		F3C3E4F72832B1ED00B3ECCA /* H4XOR */ = {
 			isa = PBXGroup;
 			children = (
+				F3B74B972832B6E7002BC86F /* Models */,
 				F3C3E4F82832B1ED00B3ECCA /* H4XORApp.swift */,
-				F3C3E4FA2832B1ED00B3ECCA /* ContentView.swift */,
+				F3B74B9C2832BD28002BC86F /* Views */,
 				F3C3E4FC2832B1EF00B3ECCA /* Assets.xcassets */,
 				F3C3E4FE2832B1EF00B3ECCA /* Preview Content */,
 			);
@@ -137,7 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3B74B992832B6F9002BC86F /* NetworkManager.swift in Sources */,
+				F3B74B9B2832B820002BC86F /* PostData.swift in Sources */,
 				F3C3E4FB2832B1ED00B3ECCA /* ContentView.swift in Sources */,
+				F3B74BA02832C409002BC86F /* WebView.swift in Sources */,
+				F3B74B9E2832BD39002BC86F /* DetailView.swift in Sources */,
 				F3C3E4F92832B1ED00B3ECCA /* H4XORApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
